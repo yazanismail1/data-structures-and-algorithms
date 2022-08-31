@@ -56,14 +56,11 @@ const sortByChildren = (charArray) => {
   return charArray.sort((a,b) => {
     if (a.children.length > b.children.length) {
       return 1
-    }
-    if (a.children.length < b.children.length) {
+    } else if (a.children.length < b.children.length) {
       return -1
-    }
-    if (a.name > b.name) {
+    } else if (a.name > b.name) {
       return 1
-    }
-    if (a.name < b.name) {
+    } else if (a.name < b.name) {
       return -1
     }
   })
