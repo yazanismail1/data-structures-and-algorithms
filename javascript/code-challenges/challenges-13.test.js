@@ -24,7 +24,7 @@ CHALLENGE 2
 Write a function named firstLetters that takes in an array of strings and returns an array containing only the first letter of each string.
 
 For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['t', 'w', 'w', ':']
------------------------------------------------------------------------------------------------- */
+-------- ---------------------------------------------------------------------------------------- */
 
 const firstLetters = (arr) => {
   return arr.map(item => item.charAt(0))
