@@ -1,8 +1,5 @@
 'use strict';
 
-const { attr } = require("cheerio/lib/api/attributes");
-const { index } = require("cheerio/lib/api/traversing");
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 1 - Review
 
